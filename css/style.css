@@ -1,0 +1,397 @@
+body{
+	margin: 0;
+	background: #f8f9fa;
+	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.container {
+    width:90%;
+    margin: auto;
+}
+header {
+    background: #FEE2B3;
+    display: flex;
+}
+.logo-area {
+    width: 30%;
+    text-align: left;
+    float: left;
+    margin-right: 10%;
+}
+header .navbars-area a {
+    text-decoration: none;
+    float: left;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #4C4F60;
+}
+header .navbars-area a:hover {
+	color: #333;
+}
+.logo-area h2 {
+    font-size: 30px;
+}
+.pra-area-main-drop {
+    overflow: hidden;
+    float: left;
+}
+.navbars-area {
+    display: flex;
+    width: 60%;
+    margin-top: 10px;
+}
+.drop-content {
+    position: absolute;
+    overflow: hidden;
+    min-width: 202px;
+    margin-top: 40px;
+    background: #fff;
+    display: none;
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 1px 6px 19px 0px rgba(0,0,0,0.75);
+}
+.pra-area-main-drop .drop-content a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 21px 0px 4px 11px;
+    width: 100%;
+    font-size: 19px;
+}
+.pra-area-main-drop:hover .drop-content{
+	display: block;
+}
+.drop-content a:hover{
+	background:lightblue;
+}
+.welcome-area {
+    display: flex;
+    background-image: linear-gradient(rgba(44, 62, 80,0.5),rgba(44, 62, 80,0.5)), url("bg-image/hero_bg_1.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 233px 0px;
+}
+.welcome-leftSight {
+    width: 51%;
+    float: left;
+}
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: playfair display;
+}
+.welcome-area .container .welcome-leftSight p {
+    color: #fff;
+    font-size: 20px;
+}
+.Content .welcome-area .welcome-rightSight input {
+    display: block;
+}
+.Content .welcome-area .welcome-rightSight input[placeholder="Select Date"] {
+    
+}
+.Content .welcome-area .welcome-rightSight input {
+    width: 100%;
+    padding: 16px 6px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.Content .welcome-area .welcome-rightSight input::placeholder{
+	font-size: 17px;
+	font-weight:300;
+}
+.welcome-rightSight .appoinDiv form {
+    background: #fff;
+    padding: 10px 28px 20px 28px;
+    text-align: center;
+    border-radius: 9px;
+}
+.welcome-rightSight {
+    overflow: hidden;
+    width: 40%;
+    margin: auto;
+}
+.appHeading {
+    float: left;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #3E4D59;
+}
+.welcome-rightSight .appoinDiv input[value="Book Appointment"] {
+    font-size: 18px;
+    background: #FEE2B3;
+    transition: 0.5s
+}
+.welcome-rightSight .appoinDiv input[value="Book Appointment"]:hover {
+	background: #fed48d;
+}
+#nai {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+    color: #364D59;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#nai2 {
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    color: #364D59;
+    padding-bottom: 36px;
+    margin-top: 0;
+}
+.bankLow {
+    width: 20%;
+}
+.fas.fa-university,
+.fas.fa-dollar-sign,
+.fas.fa-users,
+.fas.fa-hand-lizard,
+.fas.fa-plane-departure,
+.fas.fa-house-user
+ {
+    font-size: 60px;
+}
+.bankLow, .Business, .Civil {
+    width: 25%;
+    background: #fff;
+    box-shadow:2px -1px 6px 0px rgba(0,0,0,0.75);
+    padding: 28px 31px;
+    border-radius: 8px;
+    margin: 0px 20px;
+}
+.bankLow p {
+    color: #B1A49D;
+}
+.bankLow {
+    float: left;
+}
+
+.Business {
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+.Civil{
+	overflow: hidden;
+}
+.row-2 {
+    margin-top: 61px;
+}
+.onnodiv {
+    background: #fff;
+    margin-top: 160px;
+    display: flex;
+}
+.onnodiv .container img {
+    width:46%;
+    margin: 100px 10px;
+}
+.onnaimageSight {
+    width: 50%;
+    float: left;
+    margin-right: 112px;
+}
+.onnoRightSight {
+    overflow: hidden;
+    width: 32%;
+    margin-top: 61px;
+}
+.onnoRightSight .onnoPHead{
+	font-size: 30px;
+	color: #364D59;
+}
+.onnoPtitle {
+    text-align: justify;
+    color: #364D59;
+}
+.onnoRightSight a {
+    text-decoration: none;
+    color: #333;
+    background: #FEE2B3;
+    padding: 17px;
+    margin: 31px 0px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+}
+.happyCustomar .container h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    color: #364D59;
+    padding: 44px 0px;
+}
+.happyCustomar .container .whohappy img {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-right: 9px;
+}.happyCustomar .container .sheek img {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-right: 9px;
+}.happyCustomar .container .meek img {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-right: 9px;
+}
+.lilna-div {
+    overflow: hidden;
+}
+.whohappy, .meek, .sheek {
+    width: 25%;
+    background: #fff;
+    box-shadow: 2px -1px 6px 0px rgba(0,0,0,0.75);
+    padding: 50px 31px;
+    border-radius: 8px;
+    margin: 0px 20px;
+}
+.kinawork {
+    color: #CCD;
+    margin-top: -15px;
+}
+.whohappy{
+	float: left;
+}
+.meek {
+	float: left;
+	overflow: hidden;
+}
+.sheek{
+	overflow: hidden;
+}
+.iamge_ada {
+    width: 38%;
+    margin-top: 122px;
+    float: left;
+}
+.iamge_ada img {
+    width: 88%;
+}
+.middle_ada {
+    overflow: hidden;
+    width: 30%;
+    padding: 101px 0px;
+    float: left;
+    margin-right:55px;
+}
+.right_ada {
+    overflow: hidden;
+    padding: 118px 0px;
+}
+.p1 {
+    font-size: 36px;
+    color: #364D59;
+}
+.p2, .p3, .p4 {
+    text-align: justify;
+    color: #364D59;
+    line-height: 1.5;
+}
+li {
+    padding: 10px 0px;
+}
+ul {
+    float: left;
+    padding: 0;
+    list-style: circle;
+}
+.Content {
+    overflow: hidden;
+}
+.right_ada a {
+    display: block;
+    text-decoration: none;
+    color: #D9D9D3;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    margin: 24px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.right_ada a:hover {
+	color: #333;
+}
+footer{
+	display: flex;
+    background-image: linear-gradient(rgba(45, 52, 54,0.9),rgba(45, 52, 54,0.9)), url("bg-image/hero_bg_1.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.footerdiv-1 {
+    width: 25%;
+    float: left;
+    margin-top: 3%;
+    margin-right: 47px;
+}
+footer h3 {
+    color: #fff;
+    font-size: 22px;
+}
+.footerdiv-1 p {
+    color: #fff;
+    font-size: 18px;
+}
+.linkBox i {
+    padding: 10px;
+    font-size: 25px;
+    background: #FEE2B3;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+.footerdiv-2 {
+    overflow: hidden;
+    float: left;
+}
+.footerdiv-2 a, 
+.footerdiv-3 a,
+.footerdiv-3 a,
+.footerdiv-4 a,
+.footerdiv-5 a {
+	text-decoration: none;
+	color: #8E7870;
+}
+.footerdiv-2, 
+.footerdiv-3,
+.footerdiv-3,
+.footerdiv-4,
+.footerdiv-5 {
+    overflow: hidden;
+    float: left;
+    margin-top: 3%;
+    margin-right: 92px;
+}
+.footerdiv-2 a:hover, 
+.footerdiv-3 a:hover,
+.footerdiv-3 a:hover,
+.footerdiv-4 a:hover,
+.footerdiv-5 a:hover {
+	color: #fff;
+}
+.copyrighy {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 81px 0px;
+}
+.fas.fa-heart {
+    color: red;
+}
